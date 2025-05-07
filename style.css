@@ -1,2 +1,72 @@
 /* Import Google Font - Ital  */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', 'Ital' ;
+}
+body{
+    background-color: #8bcaf5;
+}
+h1{
+    color: #fff;
+    background-color: #5470e0;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container{
+    display: flex;
+    gap: 35px;
+    padding: 30px;
+}
+.weather-input{
+    width: 550px;
+}
+.weather-input input{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin: 10px 0 15px 0;
+    font-size: 1.07rem;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.weather-input .seperator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background-color: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-input .seperator::before{
+    content: "or";
+    color: #6C757D;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background: #8bcaf5;
+}
+.weather-input button{
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: #5470e0;
+}
+.weather-input .location-button{
+    background-color: #6C757D;
+}
+.weather-data{
+    width: 100%;
+}
