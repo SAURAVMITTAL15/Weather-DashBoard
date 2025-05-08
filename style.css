@@ -70,3 +70,48 @@ h1{
 .weather-data{
     width: 100%;
 }
+.weather-data .current-weather{
+    background-color: #5470e0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-data .current-weather .details h2{
+    font-size: 1.7rem;
+}
+.weather-data .current-weather .details h4{
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.weather-data .current-weather .icon img{
+    max-width: 120px;
+    margin-top: -15px;
+}
+.weather-data .current-weather .icon h4{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+#days-forecast .weather-cards{
+    display: flex;
+    gap: 20px;
+}
+#days-forecast h2{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+#days-forecast .weather-cards .card{
+    background-color: #6C757D;
+    list-style: none;
+    color: #fff;
+    padding: 18px 16px;
+    border-radius: 5px;
+    width: calc(100% / 5);
+}
+#days-forecast .weather-cards .card img{
+    max-width: 70px;
+    margin: 5px 0 -12px 0;
+}
